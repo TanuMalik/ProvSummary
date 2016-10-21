@@ -1,6 +1,6 @@
 # ProvSummary
 Summarization of provenance graphs
 
-Code Code/ProvSummary.ipynb implements the algorithm and tests on both small example data in testData/ and swift data in swiftData/
+Code Code/ProvSummary.ipynb implements the algorithm and tests on both small example data in Code/testData/ and swift data in Code/swiftData/
 
-Original graph and summary graph are both visualized into a new folder named VisualOutput/
+The original graph and summary graph of swift data are visualized into a new folder named VisualOutput/ as pdf files.
