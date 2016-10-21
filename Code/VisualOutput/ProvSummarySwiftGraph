@@ -1,0 +1,22 @@
+// Summary Swift Graph
+digraph {
+	"(18, 'File')" [label="(18, 'File')" color=red style=filled]
+		"(18, 'File')" -> "(0, 'App')"
+		"(18, 'File')" -> "(9, 'App')"
+	"(0, 'App')" [label="(0, 'App')" color=blue style=filled]
+		"(0, 'App')" -> "(19, 'File')"
+	"(19, 'File')" [label="(19, 'File')" color=green style=filled]
+		"(19, 'File')" -> "(1, 'App')"
+		"(19, 'File')" -> "(9, 'App')"
+	"(1, 'App')" [label="(1, 'App')" color=yellow style=filled]
+		"(1, 'App')" -> "(27, 'File')"
+	"(9, 'App')" [label="(9, 'App')" color=cyan style=filled]
+		"(9, 'App')" -> "(52, 'File')"
+	"(17, 'App')" [label="(17, 'App')" color=magenta style=filled]
+		"(17, 'App')" -> "(60, 'File')"
+	"(27, 'File')" [label="(27, 'File')" color=Purple style=filled]
+		"(27, 'File')" -> "(9, 'App')"
+	"(52, 'File')" [label="(52, 'File')" color=grey style=filled]
+		"(52, 'File')" -> "(17, 'App')"
+	"(60, 'File')" [label="(60, 'File')" color=tan style=filled]
+}
